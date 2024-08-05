@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed layout-compact " dir="ltr"
-    data-theme="theme-default" data-assets-path="{{ url('assets') }}" data-template="vertical-menu-template"
+    data-theme="theme-default" data-assets-path="{{ url('assets/') }}" data-template="vertical-menu-template"
     data-style="light">
 
 
@@ -42,9 +42,24 @@
     <link rel="stylesheet" href="{{ asset('assets/vendor/libs/swiper/swiper.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css') }}">
     <link rel="stylesheet" href="{{ 'assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css' }}">
-
     <link rel="stylesheet"
         href="{{ asset('assets/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/typeahead-js/typeahead.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/select2/select2.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/tagify/tagify.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/form-validation/form-validation.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/vendor/libs/bs-stepper/bs-stepper.css') }}" />
+
+    <link rel="stylesheet" href="../../assets/vendor/libs/flatpickr/flatpickr.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/bootstrap-daterangepicker/bootstrap-daterangepicker.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/jquery-timepicker/jquery-timepicker.css" />
+    <link rel="stylesheet" href="../../assets/vendor/libs/pickr/pickr-themes.css" />
+
+
+
+
     <!-- Page CSS -->
     <link rel="stylesheet" href="{{ asset('assets/vendor/css/pages/cards-statistics.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/css/pages/cards-analytics.css') }}" />
@@ -105,7 +120,11 @@
                     <!-- / Content -->
 
 
-
+                    {{-- Create Transiction Modal --}}
+                    @include('Layout.Components.CreateTransactionModal')
+                    @include('Layout.Components.UpdateTransactionModal')
+                    @include('Layout.Components.ViewTransactionModal')
+                    {{-- Create Transiction Modal --}}
 
                     <!-- Footer -->
                     @include('Layout.Footer')
@@ -153,7 +172,22 @@
     <script src="{{ asset('assets/vendor/libs/apex-charts/apexcharts.js') }}"></script>
     <script src="{{ asset('assets/vendor/libs/swiper/swiper.js') }}"></script>
     <script src="{{ asset('assets/vendor/libs/moment/moment.js') }}"></script>
-    <script src="{{ asset('assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js') }}"></script>
+
+    <script src="{{ asset('assets/vendor/libs/cleavejs/cleave.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/tagify/tagify.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/cleavejs/cleave-phone.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/select2/select2.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/form-validation/popular.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/form-validation/bootstrap5.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/form-validation/auto-focus.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/bs-stepper/bs-stepper.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/flatpickr/flatpickr.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/bootstrap-daterangepicker/bootstrap-daterangepicker.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/jquery-timepicker/jquery-timepicker.js') }}"></script>
+    <script src="{{ asset('assets/vendor/libs/pickr/pickr.js') }}"></script>
+
+
 
     <!-- Main JS -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
@@ -162,6 +196,19 @@
     <!-- Page JS -->
     <script src="{{ asset('assets/js/dashboards-analytics.js') }}"></script>
     <script src="{{ asset('assets/js/app-academy-dashboard.js') }}"></script>
+    <script src="{{ asset('assets/js/app-invoice-list.js') }}"></script>
+
+
+    <script src="{{ asset('assets/js/pages-pricing.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-create-app.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-add-new-cc.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-add-new-address.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-edit-user.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-enable-otp.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-share-project.js') }}"></script>
+    <script src="{{ asset('assets/js/modal-two-factor-auth.js') }}"></script>
+    <script src="{{ asset('assets/js/forms-pickers.js') }}"></script>
+
 </body>
 
 </html>

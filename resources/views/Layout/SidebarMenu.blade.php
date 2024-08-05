@@ -80,14 +80,14 @@
             <span class="menu-header-text" data-i18n="Apps & Pages">Apps &amp; Pages</span>
         </li>
         <li class="menu-item">
-            <a href="app-email.html" class="menu-link active">
+            <a href="{{ route('transactions') }}" class="menu-link active">
                 <i class="menu-icon tf-icons ri-booklet-line"></i>
 
                 <div data-i18n="Transaction">Transaction</div>
             </a>
         </li>
         <li class="menu-item">
-            <a href="app-email.html" class="menu-link active">
+            <a class="menu-link active" data-bs-toggle="modal" data-bs-target="#addtransiction">
                 <i class="menu-icon tf-icons ri-add-box-line"></i>
 
                 <div data-i18n="Add Transiction">Add Transiction</div>
@@ -98,11 +98,11 @@
             <a href="app-email.html" class="menu-link active">
                 <i class="menu-icon tf-icons ri-contacts-line"></i>
 
-                <div data-i18n="Add List">Add List</div>
+                <div data-i18n="User List">User List</div>
             </a>
         </li>
         <li class="menu-item">
-            <a href="app-email.html" class="menu-link active">
+            <a href="{{ route('createuser') }}" class="menu-link active">
                 <i class="menu-icon tf-icons ri-user-add-line"></i>
 
                 <div data-i18n="Add User">Add User</div>

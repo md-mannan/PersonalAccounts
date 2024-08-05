@@ -10,7 +10,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-center flex-wrap gap-2 text-center">
-                        <h5 class="d-block mb-0 text-body ">Total Income</h5>
+                        <h3 class="d-block mb-0 text-body ">Total Income</h3>
                     </div>
 
                 </div>
@@ -57,7 +57,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-center flex-wrap gap-2 text-center">
-                        <h5 class="d-block mb-0 text-body ">Total Expences</h5>
+                        <h3 class="d-block mb-0 text-body ">Total Expences</h3>
                     </div>
 
                 </div>
@@ -104,7 +104,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-center flex-wrap gap-2 text-center">
-                        <h5 class="d-block mb-0 text-body ">Total Remitance</h5>
+                        <h3 class="d-block mb-0 text-body ">Total Remitance</h3>
                     </div>
 
                 </div>
@@ -151,7 +151,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-center flex-wrap gap-2 text-center">
-                        <h5 class="d-block mb-0 text-body ">Total Payable</h5>
+                        <h3 class="d-block mb-0 text-body ">Total Payable</h3>
                     </div>
 
                 </div>
@@ -198,7 +198,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-center flex-wrap gap-2 text-center">
-                        <h5 class="d-block mb-0 text-body ">Total Reciveable</h5>
+                        <h3 class="d-block mb-0 text-body ">Total Reciveable</h3>
                     </div>
 
                 </div>
@@ -245,7 +245,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex justify-content-center flex-wrap gap-2 text-center">
-                        <h5 class="d-block mb-0 text-body ">Total Assets</h5>
+                        <h3 class="d-block mb-0 text-body ">Total Assets</h3>
                     </div>
 
                 </div>
