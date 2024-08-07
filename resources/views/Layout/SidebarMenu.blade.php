@@ -95,7 +95,7 @@
         </li>
 
         <li class="menu-item">
-            <a href="app-email.html" class="menu-link active">
+            <a href="{{ route('userlist') }}" class="menu-link active">
                 <i class="menu-icon tf-icons ri-contacts-line"></i>
 
                 <div data-i18n="User List">User List</div>

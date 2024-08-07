@@ -8,6 +8,9 @@ Route::get('/', function () {
 Route::get('/transactions', function () {
     return view('Transactions');
 })->name('transactions');
+Route::get('/userlist', function () {
+    return view('UserList');
+})->name('userlist');
 Route::get('/useradd', function () {
     return view('CreateUser');
 })->name('createuser');
